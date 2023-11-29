@@ -1,6 +1,6 @@
 # Blinker
 
-A few weeks ago I read a HackerNews comment that mentioned that a blinking light that went from a fast heartbeat to a slow heartbeat around their field of vision would help her/him focus on just work.
+A few weeks ago I read [a HackerNews comment](https://news.ycombinator.com/item?id=38276107) that mentioned that a blinking light that went from a fast heartbeat to a slow heartbeat around their field of vision would help her/him focus on just work.
 
 I had a spare Pico W to try, but the blinking LED built in the board is too dim, so I ordered a [PicoScroll](https://shop.pimoroni.com/products/pico-scroll-pack) from Pimoroni and wrote this. Worth trying, or at least having fun tinkering.
 
@@ -21,7 +21,7 @@ After loading the code in your Pico, just power it in and it will start beating.
 
 The first two are constants in the code, feel free to change them. The rest can be controlled with the buttons.
 
-- Pressing `X``: will stop the beating or alternatively (if in another "mode") turn off the LEDs.
+- Pressing `X`: will stop the beating or alternatively (if in another "mode") turn off the LEDs.
 - Pressing `A`: will start/restart the beating, with the current settings.
 - Pressing `B`: will cycle LED brightness from current brightness up to 100, and then roll from 20 up. So brightness is 20-100. I have found 50 ideal, and anything higher than 100 too bright. This works while it is running, if it is stopped by pressing `X` you will see the current brightness on the LED matrix too.
 - Pressing `Y` (only after having stopped it with `X`) will let you change the blinking time in steps of 5 minutes up to 60 minutes.
