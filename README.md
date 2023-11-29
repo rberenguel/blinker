@@ -22,7 +22,7 @@ After loading the code in your Pico, just power it in and it will start beating.
 The first two are constants in the code, feel free to change them. The rest can be controlled with the buttons.
 
 - Pressing `X`: will stop the beating or alternatively (if in another "mode") turn off the LEDs.
-- Pressing `A`: will start/restart the beating, with the current settings.
+- Pressing `A`: will start again the beating from the beginning, with the current settings.
 - Pressing `B`: will cycle LED brightness from current brightness up to 100, and then roll from 20 up. So brightness is 20-100. I have found 50 ideal, and anything higher than 100 too bright. This works while it is running, if it is stopped by pressing `X` you will see the current brightness on the LED matrix too.
 - Pressing `Y` (only after having stopped it with `X`) will let you change the blinking time in steps of 5 minutes up to 60 minutes.
 
