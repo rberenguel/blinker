@@ -12,7 +12,7 @@ The PicoScroll is an array of 17x7 LEDs with 4 tactile buttons, very convenient 
 
 ## Usage
 
-After loading the code in your Pico, just power it in and it will start beating. The beating shape is something close to a tapered oval in the middle of the LED matrix. The initial settings are:
+After loading the code in your Pico, just power it on and it will start beating. The beating shape is something close to a tapered oval in the middle of the LED matrix. The initial settings are:
 
 - High BPM: 150
 - Low BPM: 54
